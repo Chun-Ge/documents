@@ -1,4 +1,30 @@
-# 1.database scheme
+# Backend Tech Stack
+
+# Overview
+
+## Programming Language
+
+[Go](https://golang.org/)
+
+Packages (mainly to be used):
+
+[negroni](https://github.com/urfave/negroni) + [mux](https://github.com/gorilla/mux) + [render](https://github.com/unrolled/render)
+
+Database Engine:
+
+Use [xorm](https://github.com/go-xorm/xorm) to operate on databases. Use `MySQL`.
+
+[Go-MySQL-Driver](https://github.com/go-sql-driver/mysql)
+
+## Deployment
+
+Use `Ubuntu 16.04 Server` (for convenience, easy to use). May switch to `CentOS` later on.
+
+Docker(may use `aliyun` in mainland CN) + TravisCI
+
+# Details
+
+## 1.database scheme
 
 ```sql
 
