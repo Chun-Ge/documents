@@ -21,9 +21,8 @@
 
 ### Main Packages
 
-- [Vue-router](https://router.vuejs.org/en/)
-- [Vuex](https://vuex.vuejs.org/en/)
-- [Babel](https://babeljs.io/)
+- [vue-router](https://router.vuejs.org/en/)
+- [vuex](https://vuex.vuejs.org/en/)
 
 ### Unit Test
 - [Karma](https://karma-runner.github.io/2.0/index.html)
@@ -32,7 +31,8 @@
 
 ### Other Support
 - [webpack](https://webpack.js.org/)
-- [Vue-cli](https://github.com/vuejs/vue-cli)
+- [vue-cli](https://github.com/vuejs/vue-cli)
+- [Babel](https://babeljs.io/)
 
 
 ### Deployment
