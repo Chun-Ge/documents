@@ -3,8 +3,8 @@
 ## Overview
 
 ### Basic Language
-- [Jade](http://jade-lang.com/)
-- [Sass](https://sass-lang.com/)
+- [Pug](https://pugjs.org/api/getting-started.html)
+- [Stylus](http://stylus-lang.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ### JavaScript Framework
