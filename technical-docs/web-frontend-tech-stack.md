@@ -25,8 +25,9 @@
 - [vuex](https://vuex.vuejs.org/en/)
 
 ### Unit/e2e Test
-- [Karma](https://karma-runner.github.io/2.0/index.html)
-- [Mocha](https://mochajs.org/)
+
+- [Unit-Mocha](https://mochajs.org/)
+- [e2e-nightwatch](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-nightwatch)
 
 
 ### Other Support
