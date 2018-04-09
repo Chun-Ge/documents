@@ -24,7 +24,7 @@
 - [vue-router](https://router.vuejs.org/en/)
 - [vuex](https://vuex.vuejs.org/en/)
 
-### Unit Test
+### Unit/e2e Test
 - [Karma](https://karma-runner.github.io/2.0/index.html)
 - [Mocha](https://mochajs.org/)
 
