@@ -38,6 +38,7 @@
 - so on...
 
 
-### Deployment
+### Environment Support
 
-Use `Ubuntu 16.04 with NPM `
+- System: `Ubuntu 16.04 with NPM `
+- Browser: `Modern browsers and Internet Explorer 9+`
