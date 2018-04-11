@@ -23,6 +23,8 @@
 
 - [vue-router](https://router.vuejs.org/en/)
 - [vuex](https://vuex.vuejs.org/en/)
+- [vue-class-component](https://github.com/vuejs/vue-class-component)
+- [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
 
 ### Unit/e2e Test
 
