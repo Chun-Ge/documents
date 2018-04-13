@@ -27,7 +27,7 @@ _3.23 - 3.30_
 - [x] 创建[项目愿景文档](./vision.md) （薛明淇）
 - [x] 完成[用户调研](./investigation.md)（李奕蓁）
 - [x] 完成第一阶段迭代[详细需求](./product.md)（朱明杰） 
-- [ ] 确定[网页前端](../technical-docs/web-frontend-tech-stack.md)技术栈（梁天骏）
+- [x] 确定[网页前端](../technical-docs/web-frontend-tech-stack.md)技术栈（梁天骏）
 - [x] 确定 [服务器端](../technical-docs/backend-tech-stack.md)技术栈（王翔宇）
 
 ##### 长期任务
@@ -58,18 +58,32 @@ _3.30 - 4.20_
 - 与后台接口对接（劳艺斌）
 - 用户用例图绘制（朱明杰）（至第六周）
 
-#### 第二周 _4.7 - 4.14_
+#### 第二周 _4.7 - 4.13_
 
 [4月8日会议记录](../meeting-mind-graphs/4-8-2018-iteration-1.pdf)
 
 ##### 本周任务
 
-- [ ] 确定[网页前端UI标准](../technical-docs/web-ui-standard.md)（梁天骏）
-- [ ] 设计网页前端UI原型（邓清方）
+- [x] 确定[网页前端UI标准](../technical-docs/web-ui-standard.md)（梁天骏）
+- [x] 设计网页前端UI原型（邓清方）
 - [ ] 用户用例图绘制（朱明杰）
-- [ ] 确定服务端编码规范（王翔宇）
+- [x] 确定服务端编码规范（王翔宇）
 
 ##### 长期任务
 
 - 确定UML工具为[StarUML](http://staruml.io/)
 - UI原型维护与更新（邓清方）
+
+#### 第三周 _4.14 - 4.20_
+
+[4月13日会议记录](../meeting-mind-graphs/4-13-2018-iteration-1.pdf)
+
+##### 本周任务
+
+- [ ] 完善网页前端UI原型（邓清方）
+- [ ] 完成课程技术报告（全体成员）
+
+##### 长期任务
+
+- 自学go后台技术栈与web服务框架（李海航 王翔宇）
+- 自学vue工具链与工作流（劳艺斌 邓清方）
