@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>420</x>
+      <y>70</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>370</x>
+      <y>170</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>登录</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>80</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>690</x>
+      <y>170</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>密码找回</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>160</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+点击“忘记密码”按钮</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>200</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+点击“返回”按钮</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>850</x>
+      <y>300</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>填写注册信息</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>230</y>
+      <w>400</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+点击“注册”按钮</panel_attributes>
+    <additional_attributes>10.0;10.0;380.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>830</x>
+      <y>240</y>
+      <w>460</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>halign=center
+注册
+
+
+
+
+
+
+
+
+
+
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1180</x>
+      <y>300</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>注册成功</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>940</x>
+      <y>320</y>
+      <w>260</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[满足注册条件]点击“注册”按钮
+</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>50</y>
+      <w>540</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+点击“返回登录界面”按钮</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;20.0;520.0;20.0;520.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>370</x>
+      <y>560</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>浏览帖子列表</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>370</x>
+      <y>740</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>浏览帖子详情</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>230</y>
+      <w>150</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[用户名和密码正确]
+点击“登录”按钮
+/登录系统</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;330.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>620</y>
+      <w>110</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+点击
+“返回主界面”
+按钮</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>620</y>
+      <w>50</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+点击
+帖子</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>220</y>
+      <w>140</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+点击“登出”按钮
+/登出系统</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0;10.0;360.0;120.0;360.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>200</y>
+      <w>240</w>
+      <h>600</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+点击“登出”按钮
+/登出系统</panel_attributes>
+    <additional_attributes>220.0;10.0;10.0;10.0;10.0;580.0;220.0;580.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>820</x>
+      <y>500</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>查看个人中心</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>510</y>
+      <w>350</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+点击“查看个人中心”按钮</panel_attributes>
+    <additional_attributes>10.0;70.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>550</y>
+      <w>350</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+      点击“返回主界面”按钮</panel_attributes>
+    <additional_attributes>330.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>820</x>
+      <y>660</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>搜索帖子</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>620</y>
+      <w>360</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+点击“搜索”按钮</panel_attributes>
+    <additional_attributes>10.0;10.0;340.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>870</x>
+      <y>560</y>
+      <w>180</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+点击“查看个人中心”按钮</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>620</y>
+      <w>380</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+点击“返回主界面”按钮</panel_attributes>
+    <additional_attributes>360.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>530</y>
+      <w>740</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+点击
+“查看个人中心”按钮</panel_attributes>
+    <additional_attributes>10.0;250.0;600.0;250.0;600.0;10.0;460.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>230</y>
+      <w>430</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+
+点击“登出”按钮
+/登出系统</panel_attributes>
+    <additional_attributes>410.0;270.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>180</x>
+      <y>670</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>举报</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>590</y>
+      <w>140</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+点击“返回”按钮</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>690</y>
+      <w>140</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+点击
+“举报”按钮</panel_attributes>
+    <additional_attributes>120.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>70</y>
+      <w>180</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[登录信息错误]
+点击“登录”按钮
+/提示登录信息错误</panel_attributes>
+    <additional_attributes>140.0;110.0;10.0;110.0;10.0;10.0;160.0;10.0;160.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>350</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[注册信息错误]
+点击“注册”按钮
+/提示注册信息错误</panel_attributes>
+    <additional_attributes>50.0;10.0;80.0;10.0;80.0;60.0;10.0;60.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>720</y>
+      <w>370</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+点击帖子</panel_attributes>
+    <additional_attributes>350.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+</diagram>
