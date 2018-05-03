@@ -43,7 +43,7 @@ halign=left</panel_attributes>
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>*选择帖子分类</panel_attributes>
+    <panel_attributes>*选择贴子分类</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -54,7 +54,7 @@ halign=left</panel_attributes>
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>查看帖子详情</panel_attributes>
+    <panel_attributes>查看贴子详情</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -161,7 +161,7 @@ halign=left</panel_attributes>
     <coordinates>
       <x>400</x>
       <y>460</y>
-      <w>140</w>
+      <w>130</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
@@ -323,7 +323,7 @@ halign=left</panel_attributes>
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>*搜索帖子</panel_attributes>
+    <panel_attributes>*搜索贴子</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -345,7 +345,7 @@ halign=left</panel_attributes>
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>查看帖子动态</panel_attributes>
+    <panel_attributes>查看贴子动态</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -473,7 +473,7 @@ halign=left</panel_attributes>
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>查看帖子回复</panel_attributes>
+    <panel_attributes>查看贴子回复</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -481,7 +481,7 @@ halign=left</panel_attributes>
     <coordinates>
       <x>380</x>
       <y>460</y>
-      <w>100</w>
+      <w>90</w>
       <h>150</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
