@@ -1,9 +1,7 @@
 # Jekyll configuration
 
-theme: jekyll-theme-leap-day
-
-title: Chun-Ge Document Index
-description: May the power of CHUN be with you.
+name: Chun-Ge Documents
+description: Welcome to Chun Ge Documents! 
 
 # url is currently only used only for the RSS feed in feed.xml
 url: 'https://Chun-Ge.github.io'
@@ -12,12 +10,20 @@ url: 'https://Chun-Ge.github.io'
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-# baseurl: '/documents'
+baseurl: '/documents'
+## default date_format
+date_format: 
+  title: "%B-%-d-%Y"
+  archive: "%b"
+  categories: "%b-%Y"
+  tag: "%b-%Y"
 # Language
+lan: "en" 
 
-encoding: "utf-8"
+paginate: 10
 
 highlighter: rouge
 markdown: kramdown
+plugins: ['jekyll-paginate']
 
-exclude: ['README.md', "*.bak", ".gitignore"]
+exclude: ['README.md', 'LICENSE', "*.bak", ".gitignore"]
