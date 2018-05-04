@@ -27,3 +27,5 @@ markdown: kramdown
 plugins: ['jekyll-paginate']
 
 exclude: ['README.md', 'LICENSE', "*.bak", ".gitignore"]
+
+theme: jekyll-theme-leap-day
