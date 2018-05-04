@@ -41,6 +41,8 @@ date: 2018-05-05
 
 #### 8.1.2 [Golang Backend Coding Standard](#)
 
+### 8.2 [Web API Standard](#)
+
 ## Appendix
 
 ### A.1 [Meeting Record](#)
