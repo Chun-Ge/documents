@@ -20,4 +20,4 @@ encoding: "utf-8"
 highlighter: rouge
 markdown: kramdown
 
-exclude: ['README.md', "*.bak", ".gitignore"]
+exclude: ['README.md', 'LICENSE', "*.bak", ".gitignore"]
