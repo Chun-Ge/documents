@@ -1,0 +1,14 @@
+# Jekyll configuration
+
+theme: jekyll-theme-leap-day
+
+title: Chun-Ge Documents
+description: May the power of CHUN be with you.
+
+encoding: "utf-8"
+
+highlighter: rouge
+markdown: kramdown
+
+exclude: ["Gemfile*", "LICENSE", "*.bak", ".gitignore"]
+
