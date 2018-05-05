@@ -10,7 +10,7 @@ layout: default
 {% for f in pictures %}
 
     <h2>{{ f.basename }}</h2>
-    <img src="{{ f.path }}" alt="{{ f.basename }}"></img>
+    <img src="{{ f.path | relative_url }}" alt="{{ f.basename }}"></img>
 
     {% if forloop.last == false %}
         <hr>
