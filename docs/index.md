@@ -23,11 +23,11 @@ date: 2018-05-05
 
 ### 6.4 [State Model](./model-docs/state-diagram/state-diagram.png)
 
-### 6.5 [System Sequence Model](./model-docs/system-sequence-diagram/)
+### 6.5 [System Sequence Model](./model-docs/system-sequence-diagram/ssd-index-jekyll.md)
 
 ## 7. Design
 
-### 7.1 [UI Design](#)
+### 7.1 [UI Design](./model-docs/ui-design/ui-index-jekyll.md)
 
 ### 7.2 [Database Design](./model-docs/database-model.pdf)
 
@@ -45,7 +45,7 @@ date: 2018-05-05
 
 ## Appendix
 
-### A.1 [Meeting Record](https://github.com/Chun-Ge/documents/tree/master/meeting-mind-graphs)
+### A.1 [Meeting Record](./meeting-mind-graphs/meeting-index-jekyll.md)
 
 ### A.2 [Technical Reports](./reports/)
 

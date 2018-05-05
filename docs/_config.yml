@@ -2,6 +2,12 @@
 
 theme: jekyll-theme-leap-day
 
+destination:  "./jekyll/site"
+layouts_dir:  "./jekyll/layouts"
+includes_dir: "./jekyll/includes"
+data_dir:     "./jekyll/data"
+plugins_dir:  "./jekyll/plugins"
+
 title: Chun-Ge Documents
 description: May the power of CHUN be with you.
 
@@ -11,4 +17,3 @@ highlighter: rouge
 markdown: kramdown
 
 exclude: ["Gemfile*", "LICENSE", "*.bak", ".gitignore"]
-

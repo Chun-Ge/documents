@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% assign pictures = site.static_files
+    | where_exp: "p", "p.path contains page.category"
+    | where_exp: "p", "p.path contains '.png'"
+    | sort: "basename" %}
+
+{% for f in pictures %}
+
+    <h2>{{ f.basename }}</h2>
+    <img src={{ f.path }}></img>
+
+    {% if forloop.last == false %}
+        <hr>
+    {% endif %}
+
+{% endfor %}
