@@ -8,6 +8,8 @@ includes_dir: "./jekyll/includes"
 data_dir:     "./jekyll/data"
 plugins_dir:  "./jekyll/plugins"
 
+baseurl: "documents/"
+
 title: Chun-Ge Documents
 description: May the power of CHUN be with you.
 
