@@ -25,6 +25,8 @@ date: 2018-05-05
 
 ### 6.5 [System Sequence Model](./model-docs/system-sequence-diagram/ssd-index-jekyll.md)
 
+### 6.6 [Supplementary Requirements](./management-docs/supplement-requirement.md)
+
 ## 7. Design
 
 ### 7.1 [UI Design](./model-docs/ui-design/ui-index-jekyll.md)
