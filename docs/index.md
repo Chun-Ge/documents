@@ -35,6 +35,18 @@ date: 2018-05-05
 
 ### 7.3 [API Design](https://github.com/Chun-Ge/Shudong-Backend/blob/dev/apiary.apib)
 
+### 7.4 Software Architecture Documents
+
+#### 7.4.1 [Architecture Problem](./technical-docs/architecture-problems.md)
+
+#### 7.4.2 [Architecture Solution](./technical-docs/architecture-solution.md)
+
+#### 7.4.2 [Logical View](./model-docs/logical-view/uml-package.png)
+
+#### 7.4.3 [Physical View](./model-docs/physical-view/phyview.png)
+
+### 7.5 [Use-case Design](./model-docs/use-case-model/use-case-model.png)
+
 ## 8. Development Standard
 
 ### 8.1 Coding Standard
@@ -45,6 +57,10 @@ date: 2018-05-05
 
 ### 8.2 [Web API Standard](./technical-docs/http-restful-api-standard.md)
 
+### 8.3 [Mapping Logical View to Application](#)
+
+### 8.4 [dock-compose.yml](#)
+
 ## Appendix
 
 ### A.1 [Meeting Record](./meeting-mind-graphs/meeting-index-jekyll.md)
@@ -52,3 +68,5 @@ date: 2018-05-05
 ### A.2 [Technical Reports](./reports/)
 
 ### A.3 [Modelling Practice](https://github.com/Chun-Ge/modelling-practice)
+
+### A.4 [Final Reports](./reports/)
