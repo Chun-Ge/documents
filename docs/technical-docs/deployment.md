@@ -1,6 +1,15 @@
 # 部署方法说明
 
 ## Frontend
+前端使用vue+pug+typescript作为基础技术栈，部署，需要npm版本至少3以上，node版本至少8以上的环境
+
+部署Frontend：
+
+- npm install 下载需要的模块
+- npm build，利用webpack自动化打包，编译，生成最终文件
+
+注意：
+- npm 下载包时候，可能遇到慢速，甚至无法下载的错误，可以选用淘宝镜像源的cnpm
 
 ## Backend
 
