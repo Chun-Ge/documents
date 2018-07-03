@@ -57,9 +57,13 @@ date: 2018-05-05
 
 ### 8.2 [Web API Standard](./technical-docs/http-restful-api-standard.md)
 
-### 8.3 [Mapping Logical View to Application](#)
+### 8.3 Mapping Logical View to Application
 
-### 8.4 [dock-compose.yml](#)
+#### 8.3.1 [Make Post](./model-docs/ecb-diagram/frontend/make-post/post-index-jekyll.md)
+
+#### 8.3.2 [Delete Comment](./model-docs/ecb-diagram/frontend/delete-comment/comment-index-jekyll.md)
+
+### 8.4 [Deployment Manual](./technical-docs/deployment.md)
 
 ## Appendix
 
